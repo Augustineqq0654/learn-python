@@ -9,6 +9,7 @@
 # nums[0] + nums[1] = 2 + 7 = 9
 # 所以返回[0, 1]
 
+# 方法一
 def twoSum1(nums, target):
     """
     :type nums: List[int]
@@ -21,7 +22,7 @@ def twoSum1(nums, target):
             if nums[x] + nums[y] == target:
                 return x, y
 
-
+# 方法二
 def twoSum2(nums, target):
     """
     :type nums: List[int]
